@@ -1,5 +1,5 @@
 #Static pages creation practice
 __Task list__
-- [ ] Home
-- [ ] About
-- [ ] Help
+- [x] Home
+- [x] About
+- [x] Help

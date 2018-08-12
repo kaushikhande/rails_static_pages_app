@@ -65,16 +65,17 @@ p {
 }
 */
 
-.footer{
+.footer {
 	margin-top: 30px;
-	padding-top: 5px;
+	padding-top: 25px;
+	padding-bottom: 35px;
 	color: $light-gray;
 	border-top: 1px solid #eaeaea;
 
-	ul{
+	ul {
 		float: right;
 		list-style: none;
-		li{
+		li {
 			float: left;
 			/*display: inline;*/
 			margin-left: 15px;

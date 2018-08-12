@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.6'
 
 gem 'bootstrap-sass'
+gem 'rails-controller-testing'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

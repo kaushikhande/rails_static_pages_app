@@ -1,4 +1,5 @@
-# Static pages creation practice
+# Static pages creation practice :octocat:
+:octocat:
 __Task list__
 - [x] Home
 - [x] About

@@ -41,7 +41,7 @@ class UserTest < ActiveSupport::TestCase
 
 			addresses.each do |address|
 				@user.email = address
-				assert @user.valid?, "#{address} should be valid"
+				assert_not @user.valid?, "#{address} should be invalid"
 			end
 		end
 
@@ -53,7 +53,7 @@ class UserTest < ActiveSupport::TestCase
 		end
 
 		test "email should be saved as lowercase" do
-			mixed_case_email = "fooD@bas.com"
+			mixed_case_email = "foo@bas.com"
 			@user.email = mixed_case_email
 			@user.save
 			assert_equal mixed_case_email.downcase, @user.reload.email

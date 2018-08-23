@@ -7,7 +7,7 @@ class UserTest < ActiveSupport::TestCase
 
 	def setup
 		@user = User.new(name: "Example User1", email: "user1@example.com",
-                     password: "foobar1", password_confirmation: "foobar1")
+                     password: "foobar11", password_confirmation: "foobar11")
 
 	end
 
@@ -41,7 +41,7 @@ class UserTest < ActiveSupport::TestCase
 
 			addresses.each do |address|
 				@user.email = address
-				assert_not @user.valid?, "#{address} should be invalid"
+				assert @user.valid?, "#{address} should be invalid"
 			end
 		end
 

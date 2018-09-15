@@ -5,6 +5,6 @@ __Task list__
 - [x] About
 - [x] Help
 - [x] Basic Layout along with css
-- [ ] User Sign up
+- [x] User Sign up
 - [ ] User Log in
 - [ ] 
